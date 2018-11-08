@@ -1,0 +1,5 @@
+foo: foo version 1321
+spring2: hahapeng
+spring:
+  server:
+    port: 80
