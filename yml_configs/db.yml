@@ -1,2 +1,9 @@
-server:
-  port: 7080
+mapper:
+  mappers: com.icu.tool.util.mybatis.MyMapper
+#mybatis逆向工程
+mybatis:
+  type-aliases-package: com.jp.db.model
+  mapper-locations: classpath:mybatis/mapper/*.xml
+spring:
+  profiles:
+    active: test
